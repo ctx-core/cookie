@@ -2,6 +2,7 @@
 	"name": "@ctx-core/cookie",
 	"version": "4.1.19",
 	"description": "ctx-core cookie",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
