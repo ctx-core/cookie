@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cookie",
-	"version": "4.1.29",
+	"version": "4.1.30",
 	"description": "ctx-core cookie",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -29,7 +29,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/logger": "^3.1.22"
+		"@ctx-core/logger": "^3.1.23"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.7"
