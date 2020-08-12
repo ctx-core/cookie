@@ -2,10 +2,7 @@
  * @module @ctx-core/cookies/lib
  * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie/Simple_document.cookie_framework}
  */
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/cookie/lib.js'
 export function get__cookie(key) {
-	log(`${logPrefix}|get__cookie`, key)
 	if (!key) return null
 	const key__ = encodeURIComponent(key).replace(/[\-\.\+\*]/g, '\\$&')
 	const regex =
@@ -24,7 +21,6 @@ type Opts__set__cookie = {
 	schedule?:string
 }
 export function set__cookie(key, value, opts:Opts__set__cookie = {}) {
-	log(`${logPrefix}|set__cookie`, key)
 	const {
 		expires,
 		path,
@@ -79,7 +75,6 @@ type Opts__remove__cookie = {
 	path?:string
 }
 export function remove__cookie(key, opts:Opts__remove__cookie = {}) {
-	log(`${logPrefix}|remove__cookie`, key)
 	if (!has__cookie(key)) { return false }
 	const key__ = encodeURIComponent(key)
 	const { domain, path } = opts
@@ -96,14 +91,12 @@ export function remove__cookie(key, opts:Opts__remove__cookie = {}) {
 	return true
 }
 export function has__cookie(key) {
-	log(`${logPrefix}|has__cookie`, key)
 	if (!key) return false
 	const key__ = encodeURIComponent(key).replace(/[\-\.\+\*]/g, '\\$&')
 	const regex = new RegExp(`(?:^|;\\s*)${key__}\\s*\\=`)
 	return regex.test(document.cookie)
 }
 export function keys__cookie() {
-	log(`${logPrefix}|keys__cookie`)
 	const keys =
 		document.cookie
 			.replace(

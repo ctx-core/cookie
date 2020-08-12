@@ -1,3 +1,7 @@
+/**
+ * @module @ctx-core/cookies/lib
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie/Simple_document.cookie_framework}
+ */
 export declare function get__cookie(key: any): string;
 declare type Opts__set__cookie = {
     expires?: number | string | Date;
