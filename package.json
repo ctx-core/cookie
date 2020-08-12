@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cookie",
-	"version": "4.1.30",
+	"version": "4.1.31",
 	"description": "ctx-core cookie",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -27,8 +27,6 @@
 	"homepage": "https://github.com/ctx-core/cookie#readme",
 	"publishConfig": {
 		"access": "public"
-	},
-	"dependencies": {
 	},
 	"devDependencies": {
 		"typescript": "^3.9.7"
