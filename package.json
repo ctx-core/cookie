@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cookie",
-	"version": "4.1.31",
+	"version": "4.1.32",
 	"description": "ctx-core cookie",
 	"main": "./index.js",
 	"module": "./index.js",
