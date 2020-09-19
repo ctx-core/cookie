@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/cookie",
-  "version": "4.1.37",
+  "version": "5.0.0",
   "description": "ctx-core cookie",
   "keywords": [
     "ctx-core",
@@ -27,7 +27,7 @@
     "prepublishOnly": "npm run compile"
   },
   "devDependencies": {
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.3"
   },
   "publishConfig": {
     "access": "public"
