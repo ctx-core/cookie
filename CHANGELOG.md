@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 6.0.0
+
+### Major Changes
+
+- get**cookie->get_cookie,has**cookie->has_cookie,remove**cookie->remove_cookie,set**cookie->set_cookie
+
 ## 5.0.5
 
 ### Patch Changes
