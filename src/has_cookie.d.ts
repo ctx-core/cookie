@@ -1,1 +1,1 @@
-export declare function has_cookie(key: any): boolean;
+export declare function has_cookie(key: string): boolean;

@@ -1,1 +1,1 @@
-export declare function get_cookie(key: any): string | null;
+export declare function get_cookie(key: string | undefined): string | null | undefined;

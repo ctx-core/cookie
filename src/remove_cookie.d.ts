@@ -1,5 +1,5 @@
-export declare function remove_cookie(key: any, opts?: remove_cookie_opts_type): boolean;
-export declare type remove_cookie_opts_type = {
+export declare function remove_cookie(key: string, params?: remove_cookie_params_I): boolean;
+export declare type remove_cookie_params_I = {
     domain?: string;
     path?: string;
 };

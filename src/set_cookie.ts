@@ -1,4 +1,4 @@
-export function set_cookie(key, value, opts:set_cookie_opts_type = {}) {
+export function set_cookie(key:string, value:string, opts:set_cookie_opts_type = {}) {
 	const {
 		expires,
 		path,

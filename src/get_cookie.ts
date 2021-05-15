@@ -1,5 +1,5 @@
-export function get_cookie(key) {
-	if (!key) return null
+export function get_cookie(key:string|undefined) {
+	if (!key) return
 	const encoded_key = encodeURIComponent(key).replace(/[\-\.\+\*]/g, '\\$&')
 	const regex =
 		new RegExp(
