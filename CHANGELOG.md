@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 7.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
 ## 7.1.3
 
 ### Patch Changes
