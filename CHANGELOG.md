@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 7.3.1
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.3.0
 
 ### Minor Changes
