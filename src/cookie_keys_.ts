@@ -1,4 +1,4 @@
-export function _cookie_keys() {
+export function cookie_keys_() {
 	const keys =
 		document.cookie
 			.replace(
@@ -10,4 +10,7 @@ export function _cookie_keys() {
 		keys[i] = decodeURIComponent(keys[i])
 	}
 	return keys
+}
+export {
+	cookie_keys_ as _cookie_keys,
 }
