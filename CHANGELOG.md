@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 9.0.8
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+
 ## 9.0.7
 
 ### Patch Changes
