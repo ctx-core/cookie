@@ -1,4 +1,4 @@
-export function cookie_keys_() {
+export function cookie_keys_():string[] {
 	const keys =
 		document.cookie
 			.replace(

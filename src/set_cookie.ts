@@ -1,16 +1,7 @@
-export function set_cookie(key:string, value:string, opts:set_cookie_opts_type = {}) {
-	const {
-		expires,
-		path,
-		domain,
-		schedule
-	} = opts
+export function set_cookie(key:string, value:string, opts:set_cookie_opts_type = {}):boolean {
+	const { expires, path, domain, schedule } = opts
 	if (
-		!key
-		|| (
-			/^(?:expires|max\-age|path|domain|secure)$/i
-				.test(key)
-		)
+		!key || (/^(?:expires|max\-age|path|domain|secure)$/i.test(key))
 	)
 		return false
 	let cookie_expires = ''

@@ -1,4 +1,4 @@
-export function get_cookie(key:string|undefined) {
+export function get_cookie(key:string|undefined):string|undefined {
 	if (!key) return
 	const encoded_key = encodeURIComponent(key).replace(/[\-\.\+\*]/g, '\\$&')
 	const regex =
@@ -7,6 +7,6 @@ export function get_cookie(key:string|undefined) {
 	return (
 		decodeURIComponent(
 			document.cookie.replace(regex, '$1'))
-		|| null
+		|| undefined
 	)
 }
