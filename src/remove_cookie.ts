@@ -10,7 +10,7 @@ export function remove_cookie(key:string, params:remove_cookie_params_I = {}) {
 	const cookie_path =
 		path
 		? `; path=${path}`
-		: ''
+		: '.js'
 	document.cookie =
 		`${encoded_key}=; expires=Thu, 01 Jan 1970 00:00:00 GMT${cookie_domain}${cookie_path}`
 	return true
