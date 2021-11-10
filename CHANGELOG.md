@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.18
+
+### Patch Changes
+
+- compile using swc
+
 ## 10.0.17
 
 ### Patch Changes
