@@ -1,4 +1,4 @@
-import { has_cookie } from './has_cookie'
+import { has_cookie } from './has_cookie.js'
 export function remove_cookie(key:string, params:remove_cookie_params_I = {}):boolean {
 	if (!has_cookie(key)) { return false }
 	const encoded_key = encodeURIComponent(key)
