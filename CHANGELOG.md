@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.25
+
+### Patch Changes
+
+- @swc/core: ^1.2.117 -> ^1.2.118
+
 ## 10.0.24
 
 ### Patch Changes
