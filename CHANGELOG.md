@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.26
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+
 ## 10.0.25
 
 ### Patch Changes
