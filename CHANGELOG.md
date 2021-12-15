@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.31
+
+### Patch Changes
+
+- \*.d.ts export
+
 ## 10.0.30
 
 ### Patch Changes
