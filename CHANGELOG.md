@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.30
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+
 ## 10.0.29
 
 ### Patch Changes
