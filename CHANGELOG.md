@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.32
+
+### Patch Changes
+
+- fix: build
+
 ## 10.0.31
 
 ### Patch Changes
