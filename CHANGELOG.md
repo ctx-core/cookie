@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.34
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+
 ## 10.0.33
 
 ### Patch Changes
