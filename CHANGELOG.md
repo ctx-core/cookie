@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.39
+
+### Patch Changes
+
+- sideEffects = false
+
 ## 10.0.38
 
 ### Patch Changes
