@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.40
+
+### Patch Changes
+
+- package.json: exports: update
+
 ## 10.0.39
 
 ### Patch Changes

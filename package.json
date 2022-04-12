@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cookie",
-	"version": "10.0.39",
+	"version": "10.0.40",
 	"description": "ctx-core cookie",
 	"keywords": [
 		"ctx-core",
@@ -19,9 +19,7 @@
 	"type": "module",
 	"types": "./lib/index.d.ts",
 	"exports": {
-		".": {
-			"import": "./lib/index.js"
-		},
+		".": "./lib/index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
