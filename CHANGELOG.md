@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.42
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+
 ## 10.0.41
 
 ### Patch Changes
