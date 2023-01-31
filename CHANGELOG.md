@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.0.43
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+
 ## 10.0.42
 
 ### Patch Changes
