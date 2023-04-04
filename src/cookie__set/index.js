@@ -1,4 +1,8 @@
-export function cookie__set(key, value, opts = {}) {
+export function cookie__set(
+	key,
+	value,
+	opts = {}
+) {
 	const { expires, path, domain, schedule } = opts
 	if (!key || /^(?:expires|max\-age|path|domain|secure)$/i.test(key)) return false
 	let cookie_expires = ''

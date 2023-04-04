@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.2.0
+
+### Minor Changes
+
+- - remove_cookie_params_T: aliased by remove_cookie_params_I
+
 ## 10.1.0
 
 ### Minor Changes
