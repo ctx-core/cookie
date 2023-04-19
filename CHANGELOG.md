@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.2.20
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+
 ## 10.2.19
 
 ### Patch Changes
