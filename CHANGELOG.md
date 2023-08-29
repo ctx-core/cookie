@@ -1,5 +1,13 @@
 # @ctx-core/cookie
 
+## 10.3.0
+
+### Minor Changes
+
+- - parse
+
+  - serialize
+
 ## 10.2.20
 
 ### Patch Changes
