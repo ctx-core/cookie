@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.3.2
+
+### Patch Changes
+
+- tsx: ^3.13.0 -> ^3.14.0
+
 ## 10.3.1
 
 ### Patch Changes
