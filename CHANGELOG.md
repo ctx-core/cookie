@@ -1,5 +1,20 @@
 # @ctx-core/cookie
 
+## 10.4.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+
 ## 10.3.2
 
 ### Patch Changes

@@ -1,5 +1,5 @@
 /**
- * @param key{string}
+ * @param {string}key
  * @returns {boolean}
  */
 export function cookie__is_present_(key) {

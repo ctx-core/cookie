@@ -1,5 +1,5 @@
 /**
- * @param key{string}
+ * @param {string}key
  * @returns {string|undefined}
  */
 export function cookie__get(key) {
