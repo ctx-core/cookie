@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cookie",
-	"version": "10.4.1",
+	"version": "10.4.2",
 	"description": "ctx-core cookie",
 	"keywords": [
 		"ctx-core",
@@ -19,6 +19,7 @@
 	"type": "module",
 	"files": [
 		"*.d.ts",
+		"*.json",
 		"./cookie",
 		"./cookie__get",
 		"./cookie__is_present_",
