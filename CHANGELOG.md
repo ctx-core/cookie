@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.4.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+
 ## 10.4.2
 
 ### Patch Changes
