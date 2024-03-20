@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.4.11
+
+### Patch Changes
+
+- package.json: author: url,email
+
 ## 10.4.10
 
 ### Patch Changes

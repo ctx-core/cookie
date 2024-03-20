@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cookie",
-	"version": "10.4.10",
+	"version": "10.4.11",
 	"description": "ctx-core cookie",
 	"keywords": [
 		"ctx-core",
@@ -15,7 +15,11 @@
 		"url": "https://github.com/ctx-core/cookie.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-cookie@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
