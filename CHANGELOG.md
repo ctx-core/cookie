@@ -1,5 +1,11 @@
 # @ctx-core/cookie
 
+## 10.4.13
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+
 ## 10.4.12
 
 ### Patch Changes
